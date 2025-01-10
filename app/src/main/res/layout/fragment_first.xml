@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+
+        android:textColor="@android:color/white"/>
+
+    <!-- Welcome Message -->
+    <TextView
+        android:id="@+id/textViewWelcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, John Doe!"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:layout_below="@id/textViewHeader"/>
+
+    <!-- Student Information -->
+    <LinearLayout
+        android:id="@+id/linearStudentInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/textViewWelcomeMessage"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewStudentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: John Doe"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/textViewStudentID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student ID: S123456"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/textViewStudentDept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department: Computer Science"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <!-- Actions -->
+    <Button
+        android:id="@+id/buttonViewGrades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Grades"
+        android:layout_below="@id/linearStudentInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/buttonViewSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Schedule"
+        android:layout_below="@id/buttonViewGrades"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Add more buttons/actions as needed -->
+
+</RelativeLayout>

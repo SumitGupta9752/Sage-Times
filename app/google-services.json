@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1088881559111",
+    "project_id": "sage-times-sagiens",
+    "storage_bucket": "sage-times-sagiens.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088881559111:android:17875210b6231173025362",
+        "android_client_info": {
+          "package_name": "com.example.sagetimes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfrtPzGgJd-PQVA0d28gcsuLNDLS0L_K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"
+                    android:text="Online Games"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/black">
+
+                </View>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/form_outline"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="top rated games"
+                    android:textSize="15dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:background="@drawable/form_outline"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="165dp">
+
+                        <ImageView
+                            android:layout_width="131dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/tic_tac_toe_logo">
+
+                        </ImageView>
+                        <ImageView
+                            android:layout_width="131dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/ludo_board_logo">
+
+                        </ImageView><ImageView
+                            android:layout_width="131dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/snake_ladder_logo">
+
+                        </ImageView>
+                        <ImageView
+                            android:layout_width="131dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/gun_shoot_logo">
+
+                        </ImageView>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/black">
+
+            </View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Popular Games"
+                android:layout_marginStart="10dp"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/my_secondary"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="131dp"
+                    android:layout_height="109dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/tic_tac_toe_logo">
+
+                </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Tic Tac Toe"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="20k Active Users">
+
+                </TextView>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="Play Now"
+                    android:id="@+id/play_TicTacToe"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content">
+
+                </Button>
+            </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="131dp"
+                    android:layout_height="109dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/snake_ladder_logo">
+
+                </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="snake and ladder"
+                    android:layout_marginStart="25dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Available Soon">
+
+                </TextView>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="Status"
+                    android:id="@+id/btn_snakeLadder"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content">
+
+                </Button>
+            </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="131dp"
+                    android:layout_height="109dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ludo_board_logo">
+
+                </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Ludo"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Available Soon">
+
+                </TextView>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="Status"
+                    android:id="@+id/btn_ludo"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content">
+
+                </Button>
+            </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="131dp"
+                    android:layout_height="109dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/subway_surfers_logo">
+
+                </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Subway Surfers"
+                    android:textSize="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Available Soon">
+
+                </TextView>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="Status"
+                    android:id="@+id/btn_subwaySurfers"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content">
+
+                </Button>
+            </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="131dp"
+                    android:layout_height="109dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/gun_shoot_logo">
+
+                </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Gun Shoot"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Available Soon">
+
+                </TextView>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="Status"
+                    android:id="@+id/btn_gunShoot"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content">
+
+                </Button>
+            </LinearLayout>
+            </FrameLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:text="back to main menu"
+                android:layout_margin="10dp"
+                android:textColor="@color/my_primary"
+                android:textStyle="bold"
+                android:id="@+id/game_back_btn"
+                android:textSize="20dp"
+                android:background="@drawable/form_outline"
+                android:layout_height="wrap_content">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

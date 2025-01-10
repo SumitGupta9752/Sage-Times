@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProjectIdeas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#DDBB23"
+                android:backgroundTint="#0CFA8B"
+                android:padding="3dp"
+                android:text="Hardware/Software Project Ideas"
+                android:textColor="#000000"
+                android:textSize="32sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_below="@+id/title"
+                android:layout_marginTop="5dp"
+                android:background="#0BE413"
+                android:backgroundTint="#10E119">
+
+            </View>
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Software Project Ideas:-"
+                android:textSize="26dp"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <View
+                android:layout_width="200dp"
+                android:id="@+id/view4"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tv"
+                android:layout_marginBottom="10dp"
+                android:background="@color/black"
+                android:layout_height="3dp">
+
+            </View>
+
+            <LinearLayout
+                android:id="@+id/container1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_below="@+id/view4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:textColor="#F4001D"
+                    android:textStyle="bold"
+                    android:text="1. Personal Portfolio Website:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_below="@+id/my_text"
+                    android:text="Problem Statement: Create a personal website to showcase your work, skills, and achievements.\n
+Outcome: A strong online presence for individuals and professionals.\n
+Estimated Project Duration: Varies based on individual learning speed."
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/container2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_below="@+id/container1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:text="2. Library Management System:"
+                    android:textColor="#F4001D"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_below="@+id/my_text"
+                    android:text="Problem Statement: Develop a system to manage books, borrowers, and transactions in a library.\n
+Outcome: Efficient library operations and book tracking.\n
+Estimated Project Duration: Varies based on complexity."
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/container3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container2"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:text="3. Weather Forecasting System:"
+                    android:textColor="#F4001D"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_below="@+id/my_text"
+                    android:text="Problem Statement: Build an application that provides weather forecasts based on location.\n
+Outcome: Accurate weather information for users.\n
+Estimated Project Duration: Moderate."
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container3"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:text="4. Online Learning Management System:"
+                    android:textColor="#F4001D"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/my_text"
+                    android:textSize="15dp"
+                    android:text="Problem Statement: Create a platform for online courses, quizzes, and student management.\n
+Outcome: Streamlined e-learning experience.\n
+Estimated Project Duration: Moderate."
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container4"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:textColor="#F4001D"
+                    android:textStyle="bold"
+                    android:text="5. Inventory Management System for Small Businesses:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description5"
+                    android:layout_width="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/my_text"
+                    android:text="Problem Statement: Design a system to track inventory, sales, and restocking.\n
+Outcome: Efficient inventory management.\n
+Estimated Project Duration: Moderate."
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container5"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:textColor="#F4001D"
+                    android:textStyle="bold"
+                    android:text="6. Online Chat Application:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_below="@+id/my_text"
+                    android:text="Problem Statement: Develop a real-time chat application for users to communicate.\n
+Outcome: Seamless messaging experience.\n
+Estimated Project Duration: Moderate."
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container6"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:textColor="#F4001D"
+                    android:textStyle="bold"
+                    android:text="7. Age Calculator Application:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/my_text"
+                    android:textSize="15dp"
+                    android:text="Problem Statement: Create an app that calculates a person’s age based on birthdate.\n
+Outcome: Quick age calculations.\n
+Estimated Project Duration: Simple."
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_below="@+id/container7"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:textColor="#F4001D"
+                    android:textStyle="bold"
+                    android:text="8. Expense Tracker App:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_below="@+id/my_text"
+                    android:text="Problem Statement: Build an app to track income, expenses, and budgeting.\n
+Outcome: Better financial management.\n
+Estimated Project Duration: Moderate.
+"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/container9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container8"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#F4001D"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/title"
+                    android:text="9. Task Management System:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description9"
+                    android:layout_width="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/my_text"
+                    android:text="Problem Statement: Design a system to manage tasks, deadlines, and priorities.\n
+Outcome: Organized task management.\n
+Estimated Project Duration: Moderate."
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_below="@+id/container9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:textColor="#F4001D"
+                    android:textStyle="bold"
+                    android:text="10. Blog Website:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/my_text"
+                    android:textSize="15dp"
+                    android:text="Problem Statement: Create a platform for writing and sharing blog posts.\n
+Outcome: A space for expressing ideas and connecting with readers.\n
+Estimated Project Duration: Simple."
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_below="@id/container10"
+                android:layout_margin="10dp"
+                android:background="@color/black">
+
+            </View>
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/container10"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:text="Hardware Project Ideas:-"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="200dp"
+                android:id="@+id/view3"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tv1"
+                android:layout_marginBottom="5dp"
+                android:background="@color/black"
+                android:layout_height="3dp">
+
+            </View>
+
+
+            <LinearLayout
+                android:id="@+id/container11"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view3"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:textColor="#3500F4"
+                    android:textStyle="bold"
+                    android:text="1. Smart Home Automation System:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_below="@+id/my_text"
+                    android:text="Create a system that allows users to control lights, fans, and other appliances remotely using their smartphones or voice commands."
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/container12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container11"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:textColor="#3500F4"
+                    android:textStyle="bold"
+                    android:text="2. Gesture-Controlled Robot:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description12"
+                    android:layout_width="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/my_text"
+                    android:text="Build a robot that responds to hand gestures for movement and navigation"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/container13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container12"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#3500F4"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/title"
+                    android:text="3. Weather Forecasting System:Home Security System:
+"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_below="@+id/my_text"
+                    android:text="Develop a security system with motion sensors, cameras, and alarms to protect your home."
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container13"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:textColor="#3500F4"
+                    android:textStyle="bold"
+                    android:text="4. Automatic Plant Watering System:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_below="@+id/my_text"
+                    android:text="Design a system that waters plants based on soil moisture levels"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container14"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:textColor="#3500F4"
+                    android:textStyle="bold"
+                    android:text="5. Wireless Charging Pad:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description15"
+                    android:layout_width="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/my_text"
+                    android:text="Create a wireless charging pad for smartphones and other devices."
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container15"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:text="6. Digital Thermometer:"
+                    android:textColor="#3500F4"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description16"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/my_text"
+                    android:text="Build a digital thermometer using a temperature sensor (such as a DS18B20) and display the temperature on an LCD screen."
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container16"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:textColor="#3500F4"
+                    android:textStyle="bold"
+                    android:text="7. Bluetooth Speaker:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description17"
+                    android:layout_width="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/my_text"
+                    android:text="@string/description17"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container17"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:text="8. Mini CNC Plotter:"
+                    android:textColor="#3500F4"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description18"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/my_text"
+                    android:text="Construct a small CNC plotter that can draw images or patterns on paper.
+Estimated Project Duration: Moderate.
+"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/container19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container18"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:textColor="#3500F4"
+                    android:textStyle="bold"
+                    android:text="9. Weather Station:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description19"
+                    android:layout_width="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/my_text"
+                    android:text="Develop a weather station that measures temperature, humidity, and air pressure."
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container19"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/my_text20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:textColor="#3500F4"
+                    android:textStyle="bold"
+                    android:text="10. Automatic Pet Feeder:"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/my_description20"
+                    android:layout_width="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/my_text"
+                    android:text="Build a device that dispenses pet food at scheduled intervals.
+Remember that these projects can be customized and expanded based on your interests and skill level. Happy tinkering! 😊
+
+"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
